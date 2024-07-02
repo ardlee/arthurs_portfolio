@@ -19,12 +19,12 @@
 }
 
 .desktopMenuListItem {
-    margin: 1rem;
+    margin: 3rem;
     cursor: pointer;
 }
 
 .desktopMenuBtn {
-    background: white;
+    background: lightgray;
     color: black;
     border: none;
     display: flex;
