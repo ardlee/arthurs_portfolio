@@ -60,9 +60,16 @@
     height: 1.4rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
+    .bg {
+        top: 8rem; 
+        right: 3rem; 
+    }
+}
 
-    .bg{
+@media screen and (max-width: 480px) {
+    .bg {
+        top: 20rem; 
         right: -20vw;
     }
 }

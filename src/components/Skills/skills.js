@@ -22,7 +22,7 @@ const Skills = () => {
             <img src={diplomaIcon} alt="" className="skillImg" />
             <div className="skillText">
                 <h2>Education</h2>
-                <p>I graduated with honors from UCSC with a B.S. in Computer Science Game Design!</p>
+                <p> I obtained an Associates degree in Computer Science at the City College of San Francisco. I then transferred and graduated from UCSC with a B.S. in Computer Science: Computer Game Design!</p>
             </div>
         </div>
 
@@ -38,7 +38,7 @@ const Skills = () => {
             <img src={computerIcon} alt="" className="skillImg" />
             <div className="skillText">
                 <h2>Web Development</h2>
-                <p>I am eager to deepen my knowledge and gain further experience in web development.. <br />
+                <p>I am eager to deepen my knowledge and gain further experience in web development. 
                 My focus is in front end development using HTML, CSS, JS and TS, and back-end frameworks such as React.</p>
             </div>
         </div>
