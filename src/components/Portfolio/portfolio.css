@@ -1,0 +1,89 @@
+#works{
+    overflow: hidden;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+    margin: 1rem auto;
+}
+
+.portfolioLink {
+    color: red; /* Change this to your desired color */
+    text-decoration: none; /* Optional: remove underline */
+}
+
+.portfolioLink:hover {
+    color: yellow; /* Optional: change color on hover */
+}
+
+.workstitle{
+    font-size: 4rem;
+    font-weight: 700;
+    padding-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.worksdescription{
+    font-weight: 500;
+    padding: 0 1rem;
+    font-size: 1.3rem;
+}
+
+
+.workspanels{
+    margin: 1.5rem;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+}
+
+.workspanel{
+    display: cover;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50,50,50);
+    max-width: 47%;
+    height: 20vh;
+    align-items: center;
+    
+}
+
+.workspaneldesc{
+    font-weight: 400;
+}
+
+.workspanelheader{
+    display: flex;
+}
+
+@media screen and (max-width:585px) {
+    .workstitle{
+        font-size: 9vw;
+        margin: 1rem auto;
+    }
+    .worksdescription{
+        font-size: 4vw;
+        margin: 0 auto;
+    }
+    .workspanelheader{
+        font-size: 4vw;
+        margin: 0 auto;
+    }
+    .workspaneldesc{
+        font-size: .7rem;
+    }
+    .workspanel{
+        align-items: center;
+        width: 100vw;
+    }
+    .workspanels{
+        align-items: center;
+        width: 100vw;
+    }
+    
+}

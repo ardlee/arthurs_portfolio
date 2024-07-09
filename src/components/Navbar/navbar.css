@@ -1,8 +1,7 @@
 .navbar {
     background: rgb( 30, 30, 30);
     height: 5rem;
-    width: 100vw;
-    max-width: 75rem;
+    width: 100%;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
@@ -11,7 +10,7 @@
     position: sticky;
     top: 0;
     z-index: 3;
-    font-size: 1.6rem;
+    font-size: 2.6rem;
 }
 
 .logo {
@@ -21,8 +20,9 @@
 }
 
 .desktopMenuListItem {
-    margin: 3rem;
+    margin: 5rem;
     cursor: pointer;
+    transition-duration: 0.3s;
 }
 
 .desktopMenuListItem:hover{
@@ -32,7 +32,7 @@
 }
 
 .desktopMenuBtn {
-    background: lightgray;
+    background: darkgray;
     color: black;
     border: none;
     display: flex;
@@ -49,4 +49,19 @@
     margin: 1rem;
     margin-right: 0.3rem;
     margin-left: 0.3rem;
+}
+
+@media (max-width: 900px) {
+    .navbar {
+        font-size: 1.8rem; 
+        padding: 1rem; 
+    }
+
+    .desktopMenuListItem {
+        margin: 1rem; 
+    }
+
+    .desktopMenuBtn {
+        font-size: 0.8rem; 
+    }
 }

@@ -4,11 +4,13 @@
     box-sizing: border-box;
     text-decoration: none;
     background: transparent;
+    font-family: 'Work Sans', sans-serif;
+
 }
 
 body{
-    background: rgb(30, 30, 30);
-    color: white;
+    background: rgb(30,30,30);
+    color: rgb(154, 152, 152);
     overflow: hidden;
     overflow-y: scroll;
 }
