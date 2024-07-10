@@ -3,6 +3,7 @@ import './skills.css';
 import diplomaIcon from '../../assets/diploma.png';
 import computerIcon from '../../assets/computer.png';
 import gamepadIcon from '../../assets/gamepad.png';
+import resumeIcon from '../../assets/resumeIcon.png';
 
 
 const Skills = () => {
@@ -43,6 +44,14 @@ const Skills = () => {
             </div>
         </div>
 
+        <a href="https://docs.google.com/document/d/1Fnk3Rbq7oYjzLEuA7q3Osso8ZYDtcc3Dmd1mANxek28/edit?usp=sharing" 
+        className="skillBar resumeBar" target="_blank" rel="noopener noreferrer">
+          <img src={resumeIcon} alt="Resume Icon" className="skillImg" />
+          <div className="skillText">
+            <h2>Resume</h2>
+            <p>Click here to view my resume</p>
+          </div>
+        </a>
       </div>
     </section>
   );

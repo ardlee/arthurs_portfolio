@@ -15,6 +15,7 @@
     font-weight: 600;
     padding-top: 3rem;
     margin-bottom: 1.5rem;
+    color: white;
 }
 
 .sectionParagraph {
@@ -23,12 +24,14 @@
     max-width: 51rem;
     padding: 0 2rem;
     margin-bottom: 2.5rem;
+    color: white;
 }
 
 .skillText>p{
     font-weight: 500;
     font-size: 1rem;
     margin-top: 0.2rem;
+    color: white;
 }
 
 .skillBars {
@@ -44,6 +47,7 @@
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
     background: rgb( 50,50,50);
+    color: white;
 }
 
 .skillImg {
@@ -57,7 +61,19 @@
 .skillText>p{
     font-size: 0.9rem;
     font-weight: 350;
+    color: white;
 }
+
+.resumeBar:hover {
+    background-color: darkkhaki; 
+    color: black; 
+}
+
+.resumeBar:hover .skillText h2,
+.resumeBar:hover .skillText p {
+    color: black; 
+}
+
 @media screen and (max-width:900px){
     .skillBarText>p{
         font-size: 2vw;

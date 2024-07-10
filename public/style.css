@@ -10,7 +10,7 @@
 
 body{
     background: rgb(30,30,30);
-    color: rgb(154, 152, 152);
+    color: white;
     overflow: hidden;
     overflow-y: scroll;
 }
